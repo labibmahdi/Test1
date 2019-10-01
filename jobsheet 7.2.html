@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jobsheet 7</title>
+	<script type="text/javascript" language="javascript">
+		const phi = 3.14;
+		var luas;
+		var r;
+		var d;
+		
+		var rtb;
+		var t;
+		var luastb;
+	
+		var dat1;
+		var dat2;
+		var dat3;
+		var dat4;
+		var dat5;
+		var dat6;
+		var dat7;
+		var dat8;
+		var dat9;
+		var dat10;
+		var jumdat;
+		var rerata;
+
+
+		function lingkaran() {
+		
+	r = parseFloat(document.getElementById("ipt_r").value);
+	luas = phi * Math.pow(r,2);
+	d = 2 * r;
+	document.getElementById('opt_luas').value = luas;
+}
+
+			function luastabung(){
+
+		rtb = parseFloat(document.getElementById("ipt_rtb").value);
+		t = parseFloat(document.getElementById("ipt_ttb").value);
+		luastb = 2 * phi * rtb * (rtb+t);
+		document.getElementById('opt_luastb').value = luastb;
+	}
+
+		function ratarata() {
+			dat1 = parseFloat(document.getElementById("ipt_d1").value);
+			dat2 = parseFloat(document.getElementById("ipt_d2").value);
+			dat3 = parseFloat(document.getElementById("ipt_d3").value);
+			dat4 = parseFloat(document.getElementById("ipt_d4").value);
+			dat5 = parseFloat(document.getElementById("ipt_d5").value);
+			dat6 = parseFloat(document.getElementById("ipt_d6").value);
+			dat7 = parseFloat(document.getElementById("ipt_d7").value);
+			dat8 = parseFloat(document.getElementById("ipt_d8").value);
+			dat9 = parseFloat(document.getElementById("ipt_d9").value);
+			dat10 = parseFloat(document.getElementById("ipt_d10").value);
+			jumdat=dat1+dat2+dat3+dat4+dat5+dat6+dat7+dat8+dat9+dat10;
+			rerata=jumdat/10;
+			document.getElementById('opt_jumdat').value = jumdat;
+			document.getElementById('opt_rerata').value = rerata;
+			}
+	</script>
+</head>
+<body>
+	<table align="center" bgcolor="orange">
+		<thead>
+			<tr>
+				<th>Lingkaran</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Masukan nilai jari - jari</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="ipt_r"></td>
+			</tr>
+			<tr>
+				<td><button onclick="lingkaran()">Hitung</button></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Luas lingkaran</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="opt_luas" disabled></td>
+			</tr>
+		</tfoot>
+
+		
+	</table>
+	<br>
+
+	<table bgcolor="skyblue" align="center">
+		<thead>
+			<tr>
+				<th>Bangun Ruang Tabung</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Masukan Radius (Jari Jari Lingkaran)</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="ipt_rtb"></td>
+			</tr>
+			<tr>
+				<td>Masukan Tinggi Tabung</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="ipt_ttb"></td>
+			</tr>
+			<tr>
+				<td><button onclick="luastabung()">Hitung</button></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Luas Permukaan Tabung</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="opt_luastb" disabled></td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	<br>
+
+	<table bgcolor="lightblue" align="center">
+		<thead>
+			<tr>
+				<th>Menghitung Rata Rata</th>
+			</tr>
+			<tr>
+				<th>Masukan 10 Angka</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Data 1 :</td>
+				<td><input type="text" id="ipt_d1"></td>
+			</tr>
+			<tr>
+				<td>Data 2 :</td>
+				<td><input type="text" id="ipt_d2"></td>
+			</tr>
+			<tr>
+				<td>Data 3 :</td>
+				<td><input type="text" id="ipt_d3"></td>
+			</tr>
+			<tr>
+				<td>Data 4 :</td>
+				<td><input type="text" id="ipt_d4"></td>
+			</tr>
+			<tr>
+				<td>Data 5 :</td>
+				<td><input type="text" id="ipt_d5"></td>
+			</tr>
+			<tr>
+				<td>Data 6 :</td>
+				<td><input type="text" id="ipt_d6"></td>
+			</tr>
+			<tr>
+				<td>Data 7 :</td>
+				<td><input type="text" id="ipt_d7"></td>
+			</tr>
+			<tr>
+				<td>Data 8 :</td>
+				<td><input type="text" id="ipt_d8"></td>
+			</tr>
+			<tr>
+				<td>Data 9 :</td>
+				<td><input type="text" id="ipt_d9"></td>
+			</tr>
+			<tr>
+				<td>Data 10 :</td>
+				<td><input type="text" id="ipt_d10"></td>
+			</tr>
+			<tr>
+				<td><button onclick="ratarata()">Hitung</button></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Jumlah data :</td>
+				<td><input type="text" id="opt_jumdat" disabled></td>
+			</tr>
+			<tr>
+				<td>Rata Rata :</td>
+				<td><input type="text" id="opt_rerata" disabled></td>
+			</tr>
+
+		</tfoot>
+	</table>
+	<div>
+<p style="font-size:20px;text-align:left;"><a href="jobtugas.html">~Back~</a><p/>
+</div>
+</body>
+</html>

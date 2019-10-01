@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>jobsheet12</title>
+		<script language="javascript">
+			function hitung(){
+				var p = parseInt(document.getElementById('p').value);
+				var l = parseInt(document.getElementById('l').value);
+		      var t = parseInt(document.getElementById('t').value);
+			var hasil = p*l*t*1/3;
+			document.getElementById("hasil").value=hasil;
+		}
+			</script>
+	</head>
+	<body>
+		
+		<form align="center">
+		<p>Panjang limas :</p>
+		<input type="text" id="p" placeholder="panjang limas"><br>
+		<p>Lebar limas:</p>
+		<input type="text" id="l" placeholder="lebar limas"><br>
+			<p>Tinggi limas :</p>
+		<input type="text" id="t" placeholder="tinggi limas"><br>
+		<input type="text" id="hasil" placeholder="hasil perhitungan volume" disabled><br>
+		<input type="button" id="button" value="hitung" onclick="hitung()">
+		</form>
+<p style="font-size:20px;text-align:left;"><a href="jobtugas.html">~Back~</a><p/>
+		</body>
+</html>

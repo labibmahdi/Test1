@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function js20(){
+		var input=parseFloat(document.getElementById("input").value);
+		var fac=1;
+		var i;
+
+		for (i=1; i<=input; i++) {
+			fac=i*fac;
+		}
+		document.getElementById("hasil").value=fac;
+	}
+	</script>
+</head>
+<body style="font-family: sans-serif; font-size: 20px" >
+
+	<h2 align="center">Javascript Faktorial</h2>
+	<table bgcolor="lightblue" align="center">
+	<tr><td>
+	Input : <input type="text" id="input">
+	</td></tr>
+	<tr><td>
+	<button onclick="js20()">hitung</button>
+	</td></tr>
+	<tr><td>
+	Hasil Faktorial : <input type="text" id="hasil" disabled>
+	</td></tr>
+	</table>
+	<div>
+<p style="font-size:20px;text-align:left;"><a href="jobtugas.html">~Back~</a><p/>
+</div>
+</body>
+</html>

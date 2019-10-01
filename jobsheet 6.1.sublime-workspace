@@ -1,0 +1,286 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"NA",
+				"name"
+			],
+			[
+				"s",
+				"selected\tAttr"
+			],
+			[
+				"a",
+				"align\tAttr"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"p",
+				"poster\tAttr"
+			],
+			[
+				"cel",
+				"cellpadding\tAttr"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"C",
+				"color\tproperty"
+			],
+			[
+				"cE",
+				"center"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"d",
+				"disc\tlist-style-type"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"c",
+				"colspan\tAttr"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"fo",
+				"fom-group"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"b",
+				"background-color\tproperty"
+			],
+			[
+				"sm",
+				"col-sm-12"
+			],
+			[
+				"cont",
+				"container"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/LABIBMAHDI/Web Desaign/Tugas Web/Tpemweb/Jobsheet 4.1.html",
+		"/D/LABIBMAHDI/Web Desaign/Tugas Web/Tpemweb/jobsheet 8.1.html",
+		"/D/LABIBMAHDI/Web Desaign/Tugas Web/Tpemweb/jobsheet 10.1.html",
+		"/D/LABIBMAHDI/Web Desaign/Tugas Web/Tpemweb/jobsheet 7.1.html",
+		"/D/LABIBMAHDI/Web Desaign/Tugas Web/Tpemweb/jobsheet 6.1.html",
+		"/D/LABIBMAHDI/Web Desaign/Tugas Web/Tpemweb/jobsheet 5.1.html",
+		"/D/LABIBMAHDI/portfolio/index3.html",
+		"/D/LABIBMAHDI/jobsheet1.1.html",
+		"/D/LABIBMAHDI/web/index.latihan siazis.html",
+		"/D/LABIBMAHDI/portfolio/index.html2.html",
+		"/D/LABIBMAHDI/portfolio/index.html",
+		"/D/LABIBMAHDI/portfolio/css/style.css",
+		"/D/LABIBMAHDI/portfolio/css/bootstrap.css",
+		"/D/LABIBMAHDI/portfolio/css/bootstrap.css.map"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jobsheet 6.1.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\LABIBMAHDI\\Web Desaign\\Tugas Web\\Tpemweb\\jobsheet 6.1.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
